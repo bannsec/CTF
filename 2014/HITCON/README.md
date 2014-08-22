@@ -1,4 +1,4 @@
-CTF
+HITCON CTF 2014
 ===
 
-CTF Archives and Solutions
+URL: http://hitconctf2014.github.i/o
