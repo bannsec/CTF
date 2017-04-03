@@ -9,3 +9,7 @@ map <C-n> <C-w><C-w>
 
 :syntax on
 :filetype indent plugin on
+
+" Pretty tab line colors
+:hi TabLineSel ctermfg=LightBlue
+:hi TabLine ctermfg=White
