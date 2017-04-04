@@ -43,7 +43,7 @@ focus up
 layout new three
 select 1
 split
-resize -v +7
+resize -v +13
 focus down
 select 3
 split -v
@@ -101,3 +101,5 @@ bind -c rsz -k kl eval "focus left"  "command -c rsz" # Left
 bind -c rsz -k kr eval "focus right" "command -c rsz" # Right
 bind -c rsz -k ku eval "focus up"    "command -c rsz" # Up
 bind -c rsz -k kd eval "focus down"  "command -c rsz" # Down
+
+vbell off
