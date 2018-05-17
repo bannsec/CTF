@@ -1,0 +1,3 @@
+sudo qemu-system-x86_64 -enable-kvm -smp 4 -m 2048 -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -device ich9-intel-hda -device hda-output -nographic -vnc :0 -net user,hostfwd=tcp::4450-:445 -net nic /home/user/opt/windows/MSEdge - Win10_preview-disk1.vmdk.snapshot
+
+
